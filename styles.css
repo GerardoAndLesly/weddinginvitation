@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e4f82; /* Azul playero elegante */
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#details, #message, #confirmation {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+button {
+    background-color: #ff6f61; /* Naranja cálido */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #e55b4b; /* Naranja más oscuro */
+}
+
+footer {
+    background-color: #1e4f82;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
