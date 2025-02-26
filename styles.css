@@ -1,30 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #f4f4f9;
     color: #333;
-    text-align: center;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-    background-color: #1e4f82; /* Azul playero elegante */
+    background-image: url('https://example.com/your-image.jpg'); /* Aquí puedes poner la URL de una foto de fondo playera */
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
     color: white;
-    padding: 20px;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
     margin: 0;
 }
 
+.couple-name {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#hero {
+    background-color: #ff6f61; /* Color cálido playero */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+}
+
 #details, #message, #confirmation {
+    text-align: center;
     background-color: white;
-    padding: 20px;
+    padding: 30px 20px;
     margin: 20px auto;
     width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 button {
@@ -35,6 +56,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
     text-transform: uppercase;
 }
 
@@ -43,9 +65,10 @@ button:hover {
 }
 
 footer {
-    background-color: #1e4f82;
+    background-color: #1e4f82; /* Azul elegante */
     color: white;
-    padding: 10px;
+    padding: 15px;
+    text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
