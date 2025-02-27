@@ -67,11 +67,14 @@ button:hover {
 footer {
     background-color: #1e4f82; /* Azul elegante */
     color: white;
-    padding: 15px;
+    padding: 10px 20px; /* Reduce el tamaño del espacio interior */
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-size: 1em; /* Ajusta el tamaño de la fuente */
+    max-width: 1000px; /* Limita el ancho máximo */
+    margin: 0 auto; /* Centra el pie de página */
 }
 
 a {
